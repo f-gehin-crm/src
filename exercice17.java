@@ -5,14 +5,16 @@ public class exercice17 {
 
         // définition des variables
 
-        double solde = ;
-        double  Montant;
+        double solde=1000;
+        double  Montant = 200;
         double  TEST = 0;
-        double  Mensualité;
-        double R = Math.round(C * 100.0) / 100.0;
+        double  Mensualité=Montant/3;
+        double R = Math.round(Mensualité * 100.0) / 100.0;
+        String Type;
+        Type = "Electron";
         
 
-        // définition des cartes
+       /*  définition des cartes
 
         double C[];
         C = new double [3];
@@ -28,7 +30,32 @@ public class exercice17 {
 
                 TEST = + C[i] ;
 
-                    if ( TEST/)
-            }
+                    if ( Montant > C[i]+solde) {
+                        System.out.println("  OPERATION IMPOSSIBLE !!!!"); 
+                    }
+                       */ 
+                    
+            if (Type=="Classique") {
+                if (Montant>solde+500) {
+                    System.out.println("OPERATION IMPOSSIBLE   !!!!!!!");
+                    System.exit(0);
+                }
+                  }
+                    if (Type=="Gold") {
+                        if (Montant>solde+1000) {
+                            System.out.println("OPERATION IMPOSSIBLE   !!!!!!!");
+                            System.exit(0);
+                        }  
+                    }  
+
+                        if (Type=="Electron") {
+                            if (Montant>solde) {
+                                System.out.println("OPERATION IMPOSSIBLE   !!!!!!!");
+                                System.exit(0);
+                            }    
+                        }
+                System.out.println("votre solde :  "+ solde);
+                System.out.println("vos mensualités :  "+ R );
+                        } 
 }
-}
+

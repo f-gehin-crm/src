@@ -1,4 +1,4 @@
-public class exo16 {
+public class exercice16 {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         System.out.println("\n \n");
@@ -16,6 +16,9 @@ public class exo16 {
         double NB= 450 ;
         // cout du voyage
         double C=0  ;
+
+        System.out.println(A.length);
+
         
 
         // boucle de calcul
