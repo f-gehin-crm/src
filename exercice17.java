@@ -1,4 +1,4 @@
-public class exercice17 {
+/*public class exercice17 {
     
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -35,7 +35,7 @@ public class exercice17 {
                     }
                        */ 
                     
-            if (Type=="Classique") {
+       /*      if (Type=="Classique") {
                 if (Montant>solde+500) {
                     System.out.println("OPERATION IMPOSSIBLE   !!!!!!!");
                     System.exit(0);
@@ -59,3 +59,4 @@ public class exercice17 {
                         } 
 }
 
+*/

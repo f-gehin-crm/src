@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class exercice18 {
 
@@ -45,3 +45,4 @@ public class exercice18 {
 }
     }
 }
+*/
